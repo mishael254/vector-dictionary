@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
-
+// standard namespace
 using namespace std;
 
 int main(){
