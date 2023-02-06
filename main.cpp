@@ -14,6 +14,7 @@ int main(){
         cout<<"the number of words"<<words.size()<<endl;
 
         //sort the elements in the vector called words
+
         sort(words.begin(),words.end());
 
         for(int i=0;i<words.size();++i){
