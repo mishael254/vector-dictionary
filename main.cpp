@@ -6,6 +6,7 @@ using namespace std;
 
 int main(){
     vector<string>words;
+
     cout<<"input words to fill the dictionary\n";
     for (string word;cin>>word;) {
         words.push_back(word);//the new elements are read and stored in a vector
