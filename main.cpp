@@ -18,7 +18,7 @@ int main(){
         sort(words.begin(),words.end());
 
         for(int i=0;i<words.size();++i){
-            cout<<words[i];
+            cout<<words[i]<<'\t';
         }
     }
 }
