@@ -12,6 +12,7 @@ int main(){
 
         words.push_back(word);//the new elements are read and stored in a vector
         cout<<"the number of words"<<words.size()<<endl;
+
         //sort the elements in the vector called words
         sort(words.begin(),words.end());
 
