@@ -20,7 +20,7 @@ int main(){
         for(int i=0;i<words.size();++i){
             if(i==0|| words[i-1]!=words[i])//is this a new word?
             {
-                cout<<words[i]<<'\t';
+                cout<<words[i]<<'\t';//display those elements
             }
 
         }
