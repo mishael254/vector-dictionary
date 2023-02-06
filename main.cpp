@@ -18,7 +18,11 @@ int main(){
         sort(words.begin(),words.end());
 
         for(int i=0;i<words.size();++i){
-            cout<<words[i]<<'\t';
+            if(i==0|| words[i-1]!=words[i])//is this a new word?
+            {
+                cout<<words[i]<<'\t';
+            }
+
         }
     }
 }
